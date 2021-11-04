@@ -8,7 +8,7 @@
       <link href="/ClassMoeny/"/>
       <url>/ClassMoeny/</url>
       
-        <content type="html"><![CDATA[<p>此页面记录某班班费明细。（应该只有这个班看得到吧）</p>]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="28a4b6373943607718f68b9da57572c642104cb994d163c2ce3e568c08408c3d">0a8d560d817d245b2cbd1f01c9ba05b2790d60c69a8dcecf48ede7d3783fdfd1e4462efdd180c7ec4711c04f62f9f8805a80b258023eb3f87457bce4b6f12695d60692f1b73003b3a1959f913aea7d4e07ffb568b8a624db0b7af0b44b8948d609a89a3f1156702a756d53aa8af215c2</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
       <categories>
@@ -27,7 +27,7 @@
       <link href="/About/"/>
       <url>/About/</url>
       
-        <content type="html"><![CDATA[<h2 id="关于博主"><a href="#关于博主" class="headerlink" title="关于博主"></a>关于博主</h2><p>你好，这里是滚圆的小橘子。目前就读于SDU本科大二，专业是数据科学与大数据技术。</p><hr><h2 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h2><p>本博客是用<a href="https://hexo.io/zh-cn/">Hexo</a>框架的<a href="https://butterfly.js.org/">Butterfly</a>主题搭建的。</p><p>博主写此博客的目的是记录一下平时学习时遇到的困难，以防懂了过后又忘了。当然，如果我的博客能给你带来帮助的话，我不胜荣幸。</p><hr><h2 id="专业兴趣"><a href="#专业兴趣" class="headerlink" title="专业兴趣"></a>专业兴趣</h2><p>目前对这些方面感兴趣:</p><h3 id="数据科学"><a href="#数据科学" class="headerlink" title="数据科学"></a>数据科学</h3><h4 id="协同过滤"><a href="#协同过滤" class="headerlink" title="-协同过滤"></a>-协同过滤</h4><h4 id="生成式对抗网络"><a href="#生成式对抗网络" class="headerlink" title="-生成式对抗网络"></a>-生成式对抗网络</h4><h3 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h3><h4 id="Hexo框架"><a href="#Hexo框架" class="headerlink" title="-Hexo框架"></a>-Hexo框架</h4><hr><h2 id="其他爱好"><a href="#其他爱好" class="headerlink" title="其他爱好"></a>其他爱好</h2><h3 id="VOCALOID"><a href="#VOCALOID" class="headerlink" title="VOCALOID"></a>VOCALOID</h3><p>一款电子音乐制作语音合成软件。点击<a href="https://www.vocaloid.com/en/">此处</a>查看VOCALOID官网。点击<a href="https://zh.wikipedia.org/wiki/VOCALOID">此处</a>查看VOCALOID维基百科。</p><h3 id="鏡音リン"><a href="#鏡音リン" class="headerlink" title="鏡音リン"></a>鏡音リン</h3><p>一款虚拟歌手软件及其形象。点击<a href="https://en.wikipedia.org/wiki/Kagamine_Rin/Len">此处</a>查看鏡音リン维基百科。</p><h3 id="原神"><a href="#原神" class="headerlink" title="原神"></a>原神</h3><p>一款开放世界冒险游戏。点击<a href="https://www.weibo.com/u/6593199887?refer_flag=1005050010_">此处</a>查看原神微博。点击<a href="https://ys.mihoyo.com/main/">此处</a>查看原神官网。</p><h3 id="鬼畜"><a href="#鬼畜" class="headerlink" title="鬼畜"></a>鬼畜</h3><p>音画同步率极高的一类视频。点击此处查看<a href="https://baike.baidu.com/item/%E9%AC%BC%E7%95%9C/15881247?fr=aladdin">鬼畜</a>百度百科。</p><hr><h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>滚圆的小橘子的邮箱： <a href="mailto:&#114;&#111;&#x75;&#x6e;&#100;&#x65;&#100;&#x6f;&#114;&#x61;&#110;&#x67;&#101;&#x40;&#111;&#x75;&#x74;&#108;&#111;&#111;&#107;&#x2e;&#x63;&#x6f;&#x6d;">&#114;&#111;&#x75;&#x6e;&#100;&#x65;&#100;&#x6f;&#114;&#x61;&#110;&#x67;&#101;&#x40;&#111;&#x75;&#x74;&#108;&#111;&#111;&#107;&#x2e;&#x63;&#x6f;&#x6d;</a></p><p>滚圆的小橘子的Github： <a href="https://github.com/RoundedOrange">https://github.com/RoundedOrange</a></p><p>若有任何问题或想法，欢迎联系博主。</p><hr><h2 id="关于打赏"><a href="#关于打赏" class="headerlink" title="关于打赏"></a>关于打赏</h2><p>这个功能设计出来其实只是跟着教程做的，我也没觉得会有谁打赏我。不管你有没有打赏，我都为你的访问表示感谢。如果能打赏的话，那我就更感谢了。此外，目前只支持支付宝收款。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="关于博主"><a href="#关于博主" class="headerlink" title="关于博主"></a>关于博主</h2><p>你好，这里是滚圆的小橘子。目前就读于SDU本科大二，专业是数据科学与大数据技术。</p><hr><h2 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h2><p>本博客是用<a href="https://hexo.io/zh-cn/">Hexo</a>框架的<a href="https://butterfly.js.org/">Butterfly</a>主题搭建的。</p><p>博主写此博客的目的是记录一下平时学习时遇到的困难，以防懂了过后又忘了。当然，如果我的博客能给你带来帮助的话，我不胜荣幸。</p><hr><h2 id="专业兴趣"><a href="#专业兴趣" class="headerlink" title="专业兴趣"></a>专业兴趣</h2><p>目前对这些方面感兴趣:</p><h3 id="数据科学"><a href="#数据科学" class="headerlink" title="数据科学"></a>数据科学</h3><h4 id="协同过滤"><a href="#协同过滤" class="headerlink" title="-协同过滤"></a>-协同过滤</h4><h4 id="生成式对抗网络"><a href="#生成式对抗网络" class="headerlink" title="-生成式对抗网络"></a>-生成式对抗网络</h4><h3 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h3><h4 id="Hexo框架"><a href="#Hexo框架" class="headerlink" title="-Hexo框架"></a>-Hexo框架</h4><hr><h2 id="其他爱好"><a href="#其他爱好" class="headerlink" title="其他爱好"></a>其他爱好</h2><h3 id="VOCALOID"><a href="#VOCALOID" class="headerlink" title="VOCALOID"></a>VOCALOID</h3><p>一款电子音乐制作语音合成软件。点击<a href="https://www.vocaloid.com/en/">此处</a>查看VOCALOID官网。点击<a href="https://zh.wikipedia.org/wiki/VOCALOID">此处</a>查看VOCALOID维基百科。</p><h3 id="鏡音リン"><a href="#鏡音リン" class="headerlink" title="鏡音リン"></a>鏡音リン</h3><p>一款虚拟歌手软件及其形象。点击<a href="https://en.wikipedia.org/wiki/Kagamine_Rin/Len">此处</a>查看鏡音リン维基百科。</p><h3 id="原神"><a href="#原神" class="headerlink" title="原神"></a>原神</h3><p>一款开放世界冒险游戏。点击<a href="https://www.weibo.com/u/6593199887?refer_flag=1005050010_">此处</a>查看原神微博。点击<a href="https://ys.mihoyo.com/main/">此处</a>查看原神官网。</p><h3 id="鬼畜"><a href="#鬼畜" class="headerlink" title="鬼畜"></a>鬼畜</h3><p>音画同步率极高的一类视频。点击此处查看<a href="https://baike.baidu.com/item/%E9%AC%BC%E7%95%9C/15881247?fr=aladdin">鬼畜</a>百度百科。</p><hr><h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>滚圆的小橘子的邮箱： <a href="mailto:&#114;&#x6f;&#x75;&#110;&#x64;&#x65;&#100;&#111;&#x72;&#x61;&#x6e;&#103;&#101;&#64;&#111;&#117;&#116;&#x6c;&#111;&#111;&#107;&#x2e;&#x63;&#111;&#x6d;">&#114;&#x6f;&#x75;&#110;&#x64;&#x65;&#100;&#111;&#x72;&#x61;&#x6e;&#103;&#101;&#64;&#111;&#117;&#116;&#x6c;&#111;&#111;&#107;&#x2e;&#x63;&#111;&#x6d;</a></p><p>滚圆的小橘子的Github： <a href="https://github.com/RoundedOrange">https://github.com/RoundedOrange</a></p><p>若有任何问题或想法，欢迎联系博主。</p><hr><h2 id="关于打赏"><a href="#关于打赏" class="headerlink" title="关于打赏"></a>关于打赏</h2><p>这个功能设计出来其实只是跟着教程做的，我也没觉得会有谁打赏我。不管你有没有打赏，我都为你的访问表示感谢。如果能打赏的话，那我就更感谢了。此外，目前只支持支付宝收款。</p>]]></content>
       
       
       <categories>
@@ -65,7 +65,7 @@
       <link href="/DiscreteMath_0/"/>
       <url>/DiscreteMath_0/</url>
       
-        <content type="html"><![CDATA[<p>我也不知道为什么，我每次开启一个新分类的时候都想写一个引子一样的东西。可能是因为程序员从0数数吧，不把0的位置填上我就很难受。</p><p>另外，大一下的离散成绩实在是太差了，所以不得不开一个这个笔记一样的分类。希望能提高提高成绩，顺便促进理解Markdown语法写数学公式。</p><p>另外，这应该可以当作SDU离散数学（2）考试前我临时抱佛脚的浓缩版宝典。</p><p>如果有SDU的学弟学妹来我这看的话，我不胜荣幸。</p><p>另外，本分类的所有内容会在2022年2月1日（春节）开放。如果届时没有发布，请发邮件至<a href="mailto:&#114;&#x6f;&#x75;&#110;&#x64;&#101;&#x64;&#111;&#114;&#x61;&#110;&#x67;&#x65;&#64;&#x6f;&#117;&#116;&#x6c;&#x6f;&#x6f;&#107;&#46;&#99;&#x6f;&#109;">&#114;&#x6f;&#x75;&#110;&#x64;&#101;&#x64;&#111;&#114;&#x61;&#110;&#x67;&#x65;&#64;&#x6f;&#117;&#116;&#x6c;&#x6f;&#x6f;&#107;&#46;&#99;&#x6f;&#109;</a>催更。</p><p>完</p>]]></content>
+        <content type="html"><![CDATA[<p>我也不知道为什么，我每次开启一个新分类的时候都想写一个引子一样的东西。可能是因为程序员从0数数吧，不把0的位置填上我就很难受。</p><p>另外，大一下的离散成绩实在是太差了，所以不得不开一个这个笔记一样的分类。希望能提高提高成绩，顺便促进理解Markdown语法写数学公式。</p><p>另外，这应该可以当作SDU离散数学（2）考试前我临时抱佛脚的浓缩版宝典。</p><p>如果有SDU的学弟学妹来我这看的话，我不胜荣幸。</p><p>另外，本分类的所有内容会在2022年2月1日（春节）开放。如果届时没有发布，请发邮件至<a href="mailto:&#x72;&#x6f;&#x75;&#110;&#100;&#101;&#x64;&#111;&#114;&#97;&#x6e;&#103;&#101;&#64;&#111;&#x75;&#x74;&#x6c;&#x6f;&#111;&#107;&#46;&#99;&#111;&#109;">&#x72;&#x6f;&#x75;&#110;&#100;&#101;&#x64;&#111;&#114;&#97;&#x6e;&#103;&#101;&#64;&#111;&#x75;&#x74;&#x6c;&#x6f;&#111;&#107;&#46;&#99;&#111;&#109;</a>催更。</p><p>完</p>]]></content>
       
       
       <categories>
@@ -99,25 +99,6 @@
     
     
     <entry>
-      <title>引言：从“术力口很逊”到“VOCALOID IS DEAD”</title>
-      <link href="/VOCALOID_0/"/>
-      <url>/VOCALOID_0/</url>
-      
-        <content type="html"><![CDATA[<p>开始这一系列之前，先谈谈我另辟一个博客分类，准备写VOCALOID相关博客的动机。最大原因有两个，一个动机放在本文最后。另一个动机，是受知乎一篇VOCALOID教程影响。虽然那篇文章我没来得及收藏，对其数据的可信度仍持怀疑态度，但该教程对单个音符的延音中PIT和DYN参数进行的函数量化令我印象深刻。若我再找到这篇教程，我会在这里贴一个链接。</p><p>实际上，不管在什么时候，从Leon、Lola无人问津开始，经过初音未来统治的时代，再到现阶段大火的虚拟主播嘉然（以及外国的绊爱）分走V家流量的时代，VOCALOID作品一直是不被主流，尤其是中国主流认可的音乐作品。虽然雅马哈把VOCALOID当做亲儿子，链接还挂在了官网上，但虚拟歌姬的音色一直被大多数人质疑。特别是在近些年来，深度学习训练后的智能歌手（例如微软小冰）的方兴未艾、Crypton公司开发的miku NT引擎，以及日渐强大的其他引擎(国内以Synthesizer V为例，国外以UTAU为例)都让人为调参的VOCALOID技术的发展举步维艰。（其实NT引擎好像没多大削减V家的热度？）如果说得现实点的话，目前活跃于中V的国内p主及粉丝们极少有人是对音乐或技术而非软件的人设二创而入坑的。当然，不管是国外还是国内，专注于VOCALOID技术而非角色形象的都是少数，但值得注意的是，国内突然爆火的Vtuber们攫取了VOCALOID大部分的热度，以至于中V去年来的热度就惨不忍睹，拜年祭甚至没上场，上场的是SV的赤羽。如果2020年的日V与中V比较，日V可谓云蒸霞蔚。</p><p>上面这一段发了一大堆牢骚，不过我发现陪伴VOCALOID的永远是那么一群人，或许他们痴迷于技术和音乐，或许他们只是想看老婆(不是×)。国内的V家氛围终究是被这样抬起来了。</p><p>其实，VOCALOID教程网上已有很多，当然也有很多人抱怨没有一份成体系的学习路线，搜到的教程多是零散的。这是普遍的现象，不过我不打算从头写起。毕竟我能力不够，而且我也没有闲到这种地步。目前对该博客板块的规划是，先对常规的参数进行一些讲解，尽量讲一些实践时的小技巧之类的。之外的话，也有考虑讲解一些VST插件的应用。目前的讲解范围应该是局限于V4编辑器，且只讲调音部分，不涉及混音（其实是因为我不会）。</p><p>这个博客板块应该不常更新，毕竟博主也有事要忙，没事的话也要rua镜音铃fufu。所以随缘更新。我甚至有预感这篇博文发布后有很长一段时间这儿是空空如也的，毕竟我本人也没有对VOCALOID有很深的研究，看到大佬的工程文件里歪歪扭扭的PIT参数也只能发发感叹。不过，我还是会努力更新的。</p><p>本文最后，讲讲前文提到的动机之一。其实认识到镜音铃后就很想投身到VOCALOID的创作中，可惜我对乐理可以说是一窍不通。所以才没法成为一个合格的调教师，另外我也不会日语啊哭。</p><p>以上。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> VOCALOID </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>在Ubuntu中切换默认进入图形用户界面或命令行</title>
       <link href="/Linux_1/"/>
       <url>/Linux_1/</url>
@@ -137,11 +118,30 @@
     
     
     <entry>
+      <title>引言：从“术力口很逊”到“VOCALOID IS DEAD”</title>
+      <link href="/VOCALOID_0/"/>
+      <url>/VOCALOID_0/</url>
+      
+        <content type="html"><![CDATA[<p>开始这一系列之前，先谈谈我另辟一个博客分类，准备写VOCALOID相关博客的动机。最大原因有两个，一个动机放在本文最后。另一个动机，是受知乎一篇VOCALOID教程影响。虽然那篇文章我没来得及收藏，对其数据的可信度仍持怀疑态度，但该教程对单个音符的延音中PIT和DYN参数进行的函数量化令我印象深刻。若我再找到这篇教程，我会在这里贴一个链接。</p><p>实际上，不管在什么时候，从Leon、Lola无人问津开始，经过初音未来统治的时代，再到现阶段大火的虚拟主播嘉然（以及外国的绊爱）分走V家流量的时代，VOCALOID作品一直是不被主流，尤其是中国主流认可的音乐作品。虽然雅马哈把VOCALOID当做亲儿子，链接还挂在了官网上，但虚拟歌姬的音色一直被大多数人质疑。特别是在近些年来，深度学习训练后的智能歌手（例如微软小冰）的方兴未艾、Crypton公司开发的miku NT引擎，以及日渐强大的其他引擎(国内以Synthesizer V为例，国外以UTAU为例)都让人为调参的VOCALOID技术的发展举步维艰。（其实NT引擎好像没多大削减V家的热度？）如果说得现实点的话，目前活跃于中V的国内p主及粉丝们极少有人是对音乐或技术而非软件的人设二创而入坑的。当然，不管是国外还是国内，专注于VOCALOID技术而非角色形象的都是少数，但值得注意的是，国内突然爆火的Vtuber们攫取了VOCALOID大部分的热度，以至于中V去年来的热度就惨不忍睹，拜年祭甚至没上场，上场的是SV的赤羽。如果2020年的日V与中V比较，日V可谓云蒸霞蔚。</p><p>上面这一段发了一大堆牢骚，不过我发现陪伴VOCALOID的永远是那么一群人，或许他们痴迷于技术和音乐，或许他们只是想看老婆(不是×)。国内的V家氛围终究是被这样抬起来了。</p><p>其实，VOCALOID教程网上已有很多，当然也有很多人抱怨没有一份成体系的学习路线，搜到的教程多是零散的。这是普遍的现象，不过我不打算从头写起。毕竟我能力不够，而且我也没有闲到这种地步。目前对该博客板块的规划是，先对常规的参数进行一些讲解，尽量讲一些实践时的小技巧之类的。之外的话，也有考虑讲解一些VST插件的应用。目前的讲解范围应该是局限于V4编辑器，且只讲调音部分，不涉及混音（其实是因为我不会）。</p><p>这个博客板块应该不常更新，毕竟博主也有事要忙，没事的话也要rua镜音铃fufu。所以随缘更新。我甚至有预感这篇博文发布后有很长一段时间这儿是空空如也的，毕竟我本人也没有对VOCALOID有很深的研究，看到大佬的工程文件里歪歪扭扭的PIT参数也只能发发感叹。不过，我还是会努力更新的。</p><p>本文最后，讲讲前文提到的动机之一。其实认识到镜音铃后就很想投身到VOCALOID的创作中，可惜我对乐理可以说是一窍不通。所以才没法成为一个合格的调教师，另外我也不会日语啊哭。</p><p>以上。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> VOCALOID </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/hello/"/>
       <url>/hello/</url>
       
-        <content type="html"><![CDATA[<p>password is not hello</p>]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="b79b88ca07697125ceb407ded4e677605f748569b38069c96766476b0ba8e4d6">10d79030e8222445804370796b90fca13d4b64237f0fa0d414acf37604c70aaa5563a3f221bd5cd5dc406da5eddf13a8f00720fbb311b9f352f3613ce119aa26</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
       
