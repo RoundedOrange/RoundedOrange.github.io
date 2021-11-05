@@ -1,0 +1,214 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>离散数学笔记2：树 | 滚圆的小橘子的博客</title><meta name="author" content="滚圆的小橘子"><meta name="copyright" content="滚圆的小橘子"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="离散数学笔记2：树">
+<meta property="og:url" content="http://roundedorange.top/DiscreteMath_2/index.html">
+<meta property="og:site_name" content="滚圆的小橘子的博客">
+<meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg">
+<meta property="article:published_time" content="2021-11-04T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-11-05T10:06:46.384Z">
+<meta property="article:author" content="滚圆的小橘子">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://roundedorange.top/DiscreteMath_2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 滚圆的小橘子","link":"链接: ","source":"来源: 滚圆的小橘子的博客","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '离散数学笔记2：树',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-11-05 18:06:46'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/pictures/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/About/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">滚圆的小橘子的博客</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/About/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">离散数学笔记2：树</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-11-04T16:00:00.000Z" title="发表于 2021-11-05 00:00:00">2021-11-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-11-05T10:06:46.384Z" title="更新于 2021-11-05 18:06:46">2021-11-05</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="离散数学笔记2：树"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div><article class="post-content" id="article-container"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="7bfa91d5615ec2cd737b56d5828377cf30a588de20d277ee52c9c55e560dd476">ab59ecc20d5bc947a4c3439d556f4c34c7dd4f524d6d50a04f8707093bdd9eeb40ef354f45b78cb1686a02549fbeb758333c33d9e7a2bc715211af604ba90c48325d5eb0268631d99b0e172fe54b320dbb9d200f7372493ca8c0c29a5390c3fac147d9b71fead8ff3ae79130dccf6491915f79801de6ce77ff53b9991b0292e69f3ecf62fcba6939adf9fe18fa820bdca131a826d072647351881617c456c1df47984c2f27a8c92a2682f5751303ddbee3ce3678270f83f2f69bf45e187e984b265324a49f4156c5770e527b731f7de14b84ab71fcd3e2590f8768a71956ebb21328eac731dc239a67664fe1e598dd7906cc4bd311b81363135e0c8d058de479883a5f47bd1c75bfeb71101d3be7577e68e5eca643a6a3835d024fb45dd286b85b480c1ac1960279c59a3666d16d4849b53b76601ceb60ef399ffdb569ddd5617636ac80e94f4a214c97fc6102b856dab2531f69f5e21784d4c432f98293836c1571cbbb49652bbb6d5eecff4acea116d5242bcdbc7fcb592a2768c0ca6a0183e11c9aeaee619ea5f5d546560b08134342bebf7a4d88a959c116e88daeab0a3fad42bf9a8fce832c3fa1e47b257396da511eb607a7017e9c86bf70a7b459999410a80e6fd13d81fd056078be04776d35e3d8ebe4384a24c940e532e94a5840309336f248f59289d7e79a12e25387251f04d35c377aaf4c24c7c5a93a291d825a32a9de5d1c251a2e4a15767e0faee085f3d4e253c1d33fa0a15e10d9066891c8b75024dc3acb608a157c4caca6e1b8950b56f5b404e12245e3f0b4292fd8e6e855f72ed9a4d2a03fcc4632919b14fa14a390b67635b9c63442f7788b2ef73db334c3bf2ca8d69a2a7f4c95f1345971807986a57f7768733e8de1dfed3cd1e57d1d550af1b65cc667ecb99a3f6aca24c2ffb3c7c62d38d7835712221ceaa48453ee3888b1802a98de5d7797eef803636c68d339e748db8673a8a4a19d48237aa08f4b84f8c046ba4450ff77c1b23f5f5032355bc432a25c97b5d307e2a1bd91b6d0b1f4c040b9084932797049483277c2b9dd819d53e6bf95874127f229aedbe6b35ce362d4ae79346157f056180e710f07cc79ed49966f2ee7d8fec937a775a6db4392ff93c5147641c24b49392ebc7032febf6d739f7bd84e017cd4caedd181ac66914dbba6f6eb6583ad82eca93b33bc337c9a0fb5a7101f2f2c1860b61b02dbf10ae6873ae41aac8a54e845d40c511cb9047dd2424abc10dfc7585adc5eebb4d9615ae3feec7edf628135d2b5efad12566677f39f7a1ef55282acbd887ca54373cefbb69fb0ecde147a530cc85f93303fa685d6ada24e99d607f8afe78513b221e7b6b1ad91d8d37809b838e4b87c10d9275d3d38a1bbe3820156b32d8f07150581f6e17e597e271d22582b1eb328e301d4609b0696ef131254c5a1538fb8b83938801da03b896225b7cf3ae08a15b1bead65dec2781c4afe3986a00f3266f9131f3c26a989bd0b94ab599fa425d10831478de5aef4f12bc9336b3b53df4a9b1c6775af42bfd46e0ad6e4cb5ff3ef069b86bb7737a72e75cb43992cadc71cd6a0b1fa3b538de68357bf1794eff5a5296ae3d336c8d5535f9d982b128ac8c1ae72559e2ceaa5c5d90575aa2019f859f5f4830274834260279823c886b01936949ef47520b459bb3aa533232d6830a2bb012f3f50ce8c7215cbaee2e0152a35fbd7611ebb569df757a90256bb26286e425feff4d4922497a5235a2396a3dadc75cafb0f03a5065da5ed341e73ad46b1fe27e869f52c4ac2ef8f885af4d2aded833f62f6ae3256c0800d020651fba13e6de3745abba0bd97c08af12feb6dd9e75b38a84d93cf7ec953391a9ec4a5bb598a700e80f0d4622b0c49ee67e69c8494a3ef11c221d538253e952a8f5288aea36b583c7bacb6d79112d615210902c858f13745bf05b0e9fb664256ff3b91a0e264da997be81eff3254b1a0e8adf35967613c90951393fef62fc63430c27f72ec6d6adb26bc58d111cccce44e8c1a701ce1a76ea07dcc5578e115d78f44e4ff21ddecc31c565f057034fc4e754981bbdafac3a17cf8d23beb692e599686a9346eb9bb80a3c3f09b79db77a8e233253696845fbe37b767aa20f87f21d179ee38b9bda5bad0b4314e52ed0dbb95ba494e6dcfef5e7abc6b879a3aa5f9fc2585a21f817cf47f4c7af4e6b24b8b495dcc22a3a5afda8c54af4244b0e827e7ba31c83f8f6acd694b8ec8ba6a70c94a269f69fd5d8895de5b72d67aaabc0f584b69b0552cb4325be1b2419127f201c162e774421ba6621e9b2f08d23c6fb7542e3541c215de2be699f3519eaf9897dd6e6582be40821683286f909e400fbb2c91079a345a24935a0719439ff1e96af79e9331891f429f3e6e518957f40f643da829dc047dd00707b8c781a8168fc58fc8e0e315b5693506b5d03dc8e3b524e90df1fa392a519165d9a12da525d9a10e3d02ee907c3a95b45b747408e6fc8d967d3204c59e5b5f3618e86f3bda4914e462694eacabe2e0c21027bf5632aa65be3973782c994b27bd100be31753c468bb0a8a8ca6b973d9a32fe709a3698e1ee50fbc189b27a0cc9d961726a6e1e2ff3f157608dc2e4af67b13cc6f11b25d0ff15789239062fcb8cc6718ce2521f20cf9e9b730748b49e7785eaa7066e0b0299598aa6dd36503e5bd2946937cb6f9415db365fc161d1e76a85bdae1ee8399ca7b71055da7a27c9400d85f5ad6acb9963bd4605ade086678d856b16800108dcffc5a61dcf4539880588bfcdd467e6d59ad87692778e3478e1a5a9e931a52e0c573954c944f26f7f7a017d0ab8a8cb117d872eb0f8a4755d0707202e8f1e9350bf50bfa8ce9291e6b3cb6e3771d52ee773173596f14423930a19f8aebd8a3c47f67116aa0262b78fa71cdf475dd149ed05a9a8e8be1a351f469260399828bc643edb5a0c96585ba4cdc70116ee47d0220d0be5d879a5ad17199571cba4199638490c5a1e2fd5d47e42db0894d0b77cc070ed52647b66e93ebae19c551a6c77ad3f9a26daeb6689550c87f2fe78413d578a2653578e225d834eee6e91ecb179247ce53f6a4958616fcf38947d879372d0a716851b500363091e8a6257aad8ab74925aecdc51199b306e8da07e1c21d7060f3f09847d5c1c08af2dfa3f168c09007e14f2c6246915162558091a3c6a46be934aba96a810517b6eeacd9e71f84b8de3e95540790ba7b40765191fec081224daa4f6c488287f76d7c55798e5dc44a1cb244121f38b1a0d90dec75d11082a7cdf0eefc627b985b3d3368a69f16a79bf6bad9c323e8309301ba687d377a5fc577f66fa1237df727aea0b45ee4e39ef3c59d06ca69cd57119301e16883a5aacfcbfe62dfc2e7d1adc329f8d38453b699fdcbc2dbff9539d9528e0e724cfc5bb6894843d372300a3d187b9379f27512857d93f56e670326158940958b15b57f3f6c66af6b587a2071df1739d1e8a1a7f1718aad4df02bc0a85bfdb507034ef4322d708749728be2c7c4eaac9521356cada0f7241deb01</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">滚圆的小橘子</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://roundedorange.top/DiscreteMath_2/">http://roundedorange.top/DiscreteMath_2/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://roundedorange.top" target="_blank">滚圆的小橘子的博客</a>！</span></div></div><div class="tag_share"><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/pictures/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/pictures/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/pictures/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">滚圆的小橘子</div><div class="author-info__description">SDU软件工程本科大二在读，此博客记录学习时遇到的需要记录的地方</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/RoundedOrange"><i class="fab fa-github"></i><span>Github</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/RoundedOrange" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:roundedorange@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">转载请声明出处。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content toc-div-class" style="display:none"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Chapter-11-Trees"><span class="toc-number">1.</span> <span class="toc-text">Chapter 11 Trees</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#11-1-Introduction-to-Trees"><span class="toc-number">1.1.</span> <span class="toc-text">11.1 Introduction to Trees</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#11-4-Spanning-Trees"><span class="toc-number">1.2.</span> <span class="toc-text">11.4 Spanning Trees</span></a></li></ol></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By 滚圆的小橘子</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.2
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container:not\([display]\)').forEach(node => {
+            const target = node.parentNode
+            if (target.nodeName.toLowerCase() === 'li') {
+              target.parentNode.classList.add('has-jax')
+            } else {
+              target.classList.add('has-jax')
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script></div><script defer src="/live2d-widget/autoload.js"></script><script src="//code.tidio.co/nwdy4oqyxwgfsh9wggjjluoe8qtkpdxp.js" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
