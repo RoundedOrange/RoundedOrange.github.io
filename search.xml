@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>离散数学笔记（更新到高级计数）</title>
+      <link href="/DiscreteMath/"/>
+      <url>/DiscreteMath/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="6ec8c6d41eb7e2f3e7192ae3f0b72b6972d518425d7eb392aed3c8fa756f3612">4fc1dd603aa26e2c945897e20242610f575ac77ee635adbbbff7b2bb8086c2221a18046d8aa0016454d39e963c10e473</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 离散数学 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>众智科学实验（更新中）</title>
       <link href="/%E4%BC%97%E6%99%BA%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C/"/>
       <url>/%E4%BC%97%E6%99%BA%E7%A7%91%E5%AD%A6%E5%AE%9E%E9%AA%8C/</url>
@@ -141,7 +160,7 @@
       <link href="/About/"/>
       <url>/About/</url>
       
-        <content type="html"><![CDATA[<h2 id="关于博主"><a href="#关于博主" class="headerlink" title="关于博主"></a>关于博主</h2><p>你好，这里是滚圆的小橘子。目前就读于SDU本科大二，专业是数据科学与大数据技术。</p><hr><h2 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h2><p>本博客是用<a href="https://hexo.io/zh-cn/">Hexo</a>框架的<a href="https://butterfly.js.org/">Butterfly</a>主题搭建的。</p><p>博主写此博客的目的是记录一下平时学习时遇到的困难，以防懂了过后又忘了。当然，如果我的博客能给你带来帮助的话，我不胜荣幸。</p><hr><h2 id="专业兴趣"><a href="#专业兴趣" class="headerlink" title="专业兴趣"></a>专业兴趣</h2><p>目前对这些方面感兴趣:</p><h3 id="数据科学"><a href="#数据科学" class="headerlink" title="数据科学"></a>数据科学</h3><h4 id="协同过滤"><a href="#协同过滤" class="headerlink" title="-协同过滤"></a>-协同过滤</h4><h4 id="生成式对抗网络"><a href="#生成式对抗网络" class="headerlink" title="-生成式对抗网络"></a>-生成式对抗网络</h4><h3 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h3><h4 id="Hexo框架"><a href="#Hexo框架" class="headerlink" title="-Hexo框架"></a>-Hexo框架</h4><hr><h2 id="其他爱好"><a href="#其他爱好" class="headerlink" title="其他爱好"></a>其他爱好</h2><h3 id="VOCALOID"><a href="#VOCALOID" class="headerlink" title="VOCALOID"></a>VOCALOID</h3><p>一款电子音乐制作语音合成软件。点击<a href="https://www.vocaloid.com/en/">此处</a>查看VOCALOID官网。点击<a href="https://zh.wikipedia.org/wiki/VOCALOID">此处</a>查看VOCALOID维基百科。</p><h3 id="鏡音リン"><a href="#鏡音リン" class="headerlink" title="鏡音リン"></a>鏡音リン</h3><p>一款虚拟歌手软件及其形象。点击<a href="https://en.wikipedia.org/wiki/Kagamine_Rin/Len">此处</a>查看鏡音リン维基百科。</p><h3 id="原神"><a href="#原神" class="headerlink" title="原神"></a>原神</h3><p>一款开放世界冒险游戏。点击<a href="https://www.weibo.com/u/6593199887?refer_flag=1005050010_">此处</a>查看原神微博。点击<a href="https://ys.mihoyo.com/main/">此处</a>查看原神官网。</p><h3 id="鬼畜"><a href="#鬼畜" class="headerlink" title="鬼畜"></a>鬼畜</h3><p>音画同步率极高的一类视频。点击此处查看<a href="https://baike.baidu.com/item/%E9%AC%BC%E7%95%9C/15881247?fr=aladdin">鬼畜</a>百度百科。</p><hr><h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>滚圆的小橘子的邮箱： <a href="mailto:&#x72;&#111;&#117;&#110;&#x64;&#101;&#x64;&#111;&#114;&#x61;&#x6e;&#103;&#101;&#64;&#x6f;&#x75;&#116;&#x6c;&#x6f;&#111;&#107;&#x2e;&#99;&#111;&#109;">&#x72;&#111;&#117;&#110;&#x64;&#101;&#x64;&#111;&#114;&#x61;&#x6e;&#103;&#101;&#64;&#x6f;&#x75;&#116;&#x6c;&#x6f;&#111;&#107;&#x2e;&#99;&#111;&#109;</a></p><p>滚圆的小橘子的Github： <a href="https://github.com/RoundedOrange">https://github.com/RoundedOrange</a></p><p>若有任何问题或想法，欢迎联系博主。</p><hr><h2 id="关于打赏"><a href="#关于打赏" class="headerlink" title="关于打赏"></a>关于打赏</h2><p>这个功能设计出来其实只是跟着教程做的，我也没觉得会有谁打赏我。不管你有没有打赏，我都为你的访问表示感谢。如果能打赏的话，那我就更感谢了。此外，目前只支持支付宝收款。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="关于博主"><a href="#关于博主" class="headerlink" title="关于博主"></a>关于博主</h2><p>你好，这里是滚圆的小橘子。目前就读于SDU本科大二，专业是数据科学与大数据技术。</p><hr><h2 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h2><p>本博客是用<a href="https://hexo.io/zh-cn/">Hexo</a>框架的<a href="https://butterfly.js.org/">Butterfly</a>主题搭建的。</p><p>博主写此博客的目的是记录一下平时学习时遇到的困难，以防懂了过后又忘了。当然，如果我的博客能给你带来帮助的话，我不胜荣幸。</p><hr><h2 id="专业兴趣"><a href="#专业兴趣" class="headerlink" title="专业兴趣"></a>专业兴趣</h2><p>目前对这些方面感兴趣:</p><h3 id="数据科学"><a href="#数据科学" class="headerlink" title="数据科学"></a>数据科学</h3><h4 id="协同过滤"><a href="#协同过滤" class="headerlink" title="-协同过滤"></a>-协同过滤</h4><h4 id="生成式对抗网络"><a href="#生成式对抗网络" class="headerlink" title="-生成式对抗网络"></a>-生成式对抗网络</h4><h3 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h3><h4 id="Hexo框架"><a href="#Hexo框架" class="headerlink" title="-Hexo框架"></a>-Hexo框架</h4><hr><h2 id="其他爱好"><a href="#其他爱好" class="headerlink" title="其他爱好"></a>其他爱好</h2><h3 id="VOCALOID"><a href="#VOCALOID" class="headerlink" title="VOCALOID"></a>VOCALOID</h3><p>一款电子音乐制作语音合成软件。点击<a href="https://www.vocaloid.com/en/">此处</a>查看VOCALOID官网。点击<a href="https://zh.wikipedia.org/wiki/VOCALOID">此处</a>查看VOCALOID维基百科。</p><h3 id="鏡音リン"><a href="#鏡音リン" class="headerlink" title="鏡音リン"></a>鏡音リン</h3><p>一款虚拟歌手软件及其形象。点击<a href="https://en.wikipedia.org/wiki/Kagamine_Rin/Len">此处</a>查看鏡音リン维基百科。</p><h3 id="原神"><a href="#原神" class="headerlink" title="原神"></a>原神</h3><p>一款开放世界冒险游戏。点击<a href="https://www.weibo.com/u/6593199887?refer_flag=1005050010_">此处</a>查看原神微博。点击<a href="https://ys.mihoyo.com/main/">此处</a>查看原神官网。</p><h3 id="鬼畜"><a href="#鬼畜" class="headerlink" title="鬼畜"></a>鬼畜</h3><p>音画同步率极高的一类视频。点击此处查看<a href="https://baike.baidu.com/item/%E9%AC%BC%E7%95%9C/15881247?fr=aladdin">鬼畜</a>百度百科。</p><hr><h2 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h2><p>滚圆的小橘子的邮箱： <a href="mailto:&#x72;&#111;&#x75;&#x6e;&#x64;&#x65;&#x64;&#x6f;&#114;&#97;&#x6e;&#x67;&#x65;&#x40;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#107;&#46;&#x63;&#x6f;&#x6d;">&#x72;&#111;&#x75;&#x6e;&#x64;&#x65;&#x64;&#x6f;&#114;&#97;&#x6e;&#x67;&#x65;&#x40;&#111;&#x75;&#116;&#x6c;&#111;&#111;&#107;&#46;&#x63;&#x6f;&#x6d;</a></p><p>滚圆的小橘子的Github： <a href="https://github.com/RoundedOrange">https://github.com/RoundedOrange</a></p><p>若有任何问题或想法，欢迎联系博主。</p><hr><h2 id="关于打赏"><a href="#关于打赏" class="headerlink" title="关于打赏"></a>关于打赏</h2><p>这个功能设计出来其实只是跟着教程做的，我也没觉得会有谁打赏我。不管你有没有打赏，我都为你的访问表示感谢。如果能打赏的话，那我就更感谢了。此外，目前只支持支付宝收款。</p>]]></content>
       
       
       <categories>
@@ -213,25 +232,6 @@
     
     
     <entry>
-      <title>在Ubuntu中切换默认进入图形用户界面或命令行</title>
-      <link href="/Linux_1/"/>
-      <url>/Linux_1/</url>
-      
-        <content type="html"><![CDATA[<p>在Ubuntu中，通常我们是通过图形用户界面进入终端敲命令的。敲命令的过程中可能会被GUI干扰到。因此，我们可以选择在开机时不使用GUI直接进入命令行模式，或选择GUI模式。</p><h2 id="从默认GUI模式切换到默认命令行"><a href="#从默认GUI模式切换到默认命令行" class="headerlink" title="从默认GUI模式切换到默认命令行"></a>从默认GUI模式切换到默认命令行</h2><p>在终端执行以下命令。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo systemcl set-default multi-user.target</span><br></pre></td></tr></table></figure><p>该命令会使你每次开机都进入命令行模式而没有图形用户界面，鼠标当然也就没用了。所以在输入命令前请做好准备。</p><p>接下来就可以重启后生效了。你可以手动重启，体验一下最后使用GUI的丝滑享受。当然你也可以直接敲以下命令重启。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ reboot</span><br></pre></td></tr></table></figure><p>重启好后就进入了命令行模式，且以后每次都如此。</p><p>值得注意的是，在命令行模式下，你要自己输入用户名和密码。当出现</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nameOfVM login:</span><br></pre></td></tr></table></figure><p>时，你就可以先输入账号后输入密码。（nameOfVM是你机器的名字）</p><p>想要登录root用户时用户名就是root。</p><h2 id="从默认命令行进入默认GUI"><a href="#从默认命令行进入默认GUI" class="headerlink" title="从默认命令行进入默认GUI"></a>从默认命令行进入默认GUI</h2><p>你需要先登录。登录后，输入以下命令。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ systemctl set-default graphical.target</span><br></pre></td></tr></table></figure><p>接下来也是重启，只不过是只能敲命令了。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ reboot</span><br></pre></td></tr></table></figure><p>完</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Linux </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>引言：从“术力口很逊”到“VOCALOID IS DEAD”</title>
       <link href="/VOCALOID_0/"/>
       <url>/VOCALOID_0/</url>
@@ -242,6 +242,25 @@
       <categories>
           
           <category> VOCALOID </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在Ubuntu中切换默认进入图形用户界面或命令行</title>
+      <link href="/Linux_1/"/>
+      <url>/Linux_1/</url>
+      
+        <content type="html"><![CDATA[<p>在Ubuntu中，通常我们是通过图形用户界面进入终端敲命令的。敲命令的过程中可能会被GUI干扰到。因此，我们可以选择在开机时不使用GUI直接进入命令行模式，或选择GUI模式。</p><h2 id="从默认GUI模式切换到默认命令行"><a href="#从默认GUI模式切换到默认命令行" class="headerlink" title="从默认GUI模式切换到默认命令行"></a>从默认GUI模式切换到默认命令行</h2><p>在终端执行以下命令。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo systemcl set-default multi-user.target</span><br></pre></td></tr></table></figure><p>该命令会使你每次开机都进入命令行模式而没有图形用户界面，鼠标当然也就没用了。所以在输入命令前请做好准备。</p><p>接下来就可以重启后生效了。你可以手动重启，体验一下最后使用GUI的丝滑享受。当然你也可以直接敲以下命令重启。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ reboot</span><br></pre></td></tr></table></figure><p>重启好后就进入了命令行模式，且以后每次都如此。</p><p>值得注意的是，在命令行模式下，你要自己输入用户名和密码。当出现</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nameOfVM login:</span><br></pre></td></tr></table></figure><p>时，你就可以先输入账号后输入密码。（nameOfVM是你机器的名字）</p><p>想要登录root用户时用户名就是root。</p><h2 id="从默认命令行进入默认GUI"><a href="#从默认命令行进入默认GUI" class="headerlink" title="从默认命令行进入默认GUI"></a>从默认命令行进入默认GUI</h2><p>你需要先登录。登录后，输入以下命令。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ systemctl set-default graphical.target</span><br></pre></td></tr></table></figure><p>接下来也是重启，只不过是只能敲命令了。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ reboot</span><br></pre></td></tr></table></figure><p>完</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
           
       </categories>
       
