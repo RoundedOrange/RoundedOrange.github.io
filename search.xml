@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>让Hexo在主页显示指定的最新文章</title>
+      <link href="/9fbfda00.html"/>
+      <url>/9fbfda00.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="期望结果"><a href="#期望结果" class="headerlink" title="期望结果"></a>期望结果</h1><p>在hexo主页中，需要指定某些文章显示，某些不显示。</p><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ol><li>安装hexo-generator-index2 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index2 --save</span><br><span class="line">npm uninstall hexo-generator-index --save</span><br></pre></td></tr></table></figure></li><li>修改hexo配置文件 <div class="note info flat"><p>目前根据本人亲测，只能在根目录下的_config.yml中增加配置，不能在主题对应的配置文件中增加。</p></div> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># index2 generator是否包含官方的hexo-generator-index，默认true（包含）</span></span><br><span class="line"><span class="attr">index2_include_index:</span> <span class="literal">true</span> <span class="comment"># defult is true</span></span><br><span class="line"><span class="comment"># 配置index2 generator，可以是数组或对象</span></span><br><span class="line"><span class="attr">index2_generator:</span></span><br><span class="line">    <span class="attr">per_page:</span> <span class="number">10</span></span><br><span class="line">    <span class="attr">order_by:</span> <span class="string">-date</span></span><br><span class="line">    <span class="attr">include:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">category</span> <span class="string">Web</span> <span class="comment"># 只包含Web分类下的文章</span></span><br><span class="line">    <span class="attr">exclude:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">tag</span> <span class="string">Hexo</span> <span class="comment"># 不包含标签为Hexo的文章</span></span><br></pre></td></tr></table></figure> 具体参数详见插件对应代码仓readme.md，链接附在文章末尾。</li></ol><details class="folding-tag" blue><summary> 点此查看参考文档 </summary>              <div class='content'>              <div class="btns rounded grid3">            <a class="button" href='https://blog.csdn.net/qq_15602635/article/details/83479980' title='hexo首页优雅的隐藏部分文章'><i class='fas fa-book-open'></i>hexo首页优雅的隐藏部分文章</a><a class="button" href='https://github.com/Jamling/hexo-generator-index2/blob/master/README_zh.md' title='hexo-generator-index2插件代码仓'><i class='fas fa-book-open'></i>hexo-generator-index2插件代码仓</a>          </div>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客维护 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>欢迎光临( •̀ ω •́ )</title>
+      <link href="/4806bed7.html"/>
+      <url>/4806bed7.html</url>
+      
+        <content type="html"><![CDATA[<span class='p center logo h3'>滚圆的小橘子的博客</span><span class='p center small'>凡有所学，皆成性格。</span><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>本文将为第一次来本博客的各位介绍一下有啥好康的东东。小站正在慢慢发展，好康的东西会越来越多的！</p></div><h2 id="博主信息"><a href="#博主信息" class="headerlink" title="博主信息"></a>博主信息</h2><ul><li><p>你可以叫我<code>滚圆的小橘子</code>。目前就读于SDU大二的软件工程。</p></li><li><p>滚圆的小橘子的邮箱： <code>roundedorange@outlook.com</code><br>滚圆的小橘子的Github：<code>https://github.com/RoundedOrange</code>  </p><a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/RoundedOrange"><img src="https://github-readme-stats.vercel.app/api/?username=RoundedOrange&theme=buefy&show_owner=true"/></a>  <p>若有任何问题或想法，欢迎联系博主。</p></li><li><p>博主是镜音铃单推人。想要知道什么是镜音铃，<a href="/kagamine/">戳戳这里</a>！</p></li></ul><h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><ul><li><p>主页有分类，点进去就能看到属于不同分类的文章了。</p></li><li><p>一般的技术性文章，如果没有明显分类的，统一归到杂项中。学习笔记类文章，归到学习笔记这一分类。如果一篇文章内容过多，会将其拆分成多个文章并新建分类。</p></li><li><p>对于未更新完的文章，会在标题中表上“（更新中）”或“（更新到***）”。如果更新完毕，不会标其他说明。</p></li><li><p>通常文章出现以下情况时会被密码保护：可能被盗用的课内作业、过时的文章、写一半的文章、被恶意浏览多次的文章等。如果想要浏览这些文章，邮箱联系滚圆的小橘子并说明意图。</p></li></ul><h2 id="博客其他基本内容"><a href="#博客其他基本内容" class="headerlink" title="博客其他基本内容"></a>博客其他基本内容</h2><ul><li><p>本博客信息如下</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">name: 滚圆的小橘子的博客</span><br><span class="line">link: https://roundedorange.top/</span><br><span class="line">avatar: https://roundedorange.top/pictures/avatar.jpg</span><br><span class="line">descr: 凡有所学，皆成性格。</span><br><span class="line">siteshot: https://roundedorange.top/pictures/siteshot.jpg</span><br></pre></td></tr></table></figure></li><li><p>打赏这个功能设计出来其实只是跟着教程做的，我也没觉得会有谁打赏我嘿嘿。</p></li><li><p>想要申请友链的，请发邮件至<code>roundedorange@outlook.com</code>，并注明博客名字（必填）、博客网址（必填）、头像图片来源（必填）、博客描述（选填）、博客站点缩略图（选填）。<br>不论是否通过申请，小橘子收到后都会及时发邮件回复。小橘子可能会因为申请信息不完整而退回哦。<br><strong>只能通过发邮件到该邮箱来申请，不能通过评论区留言来申请友链！</strong></p></li><li><p>通常情况下在寒暑假时稳定更新，上学时不定时更新。如果要催更的话，邮箱联系。</p></li></ul><h2 id="本博客的新鲜东西"><a href="#本博客的新鲜东西" class="headerlink" title="本博客的新鲜东西"></a>本博客的新鲜东西</h2><h3 id="镜音的小窝"><a href="#镜音的小窝" class="headerlink" title="镜音的小窝"></a><a href="/kagamine">镜音的小窝</a></h3><p>欸嘿，进去看看不就知道了。</p><h3 id="留言板"><a href="#留言板" class="headerlink" title="留言板"></a><a href="/comments">留言板</a></h3><p>你可以到这儿给滚圆的小橘子留评论。</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>对博客有什么改进建议的话，欢迎联系我！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 主页 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决Hexo中Mathjax渲染存在错误问题</title>
       <link href="/5a256622.html"/>
       <url>/5a256622.html</url>
@@ -32,7 +70,7 @@
       
       <categories>
           
-          <category> HMR </category>
+          <category> 禁区 </category>
           
       </categories>
       
@@ -51,7 +89,7 @@
       
       <categories>
           
-          <category> HMR </category>
+          <category> 禁区 </category>
           
       </categories>
       
