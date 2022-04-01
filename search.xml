@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Linux对进程Ctrl+Z挂起后如何恢复</title>
+      <link href="/8cfde8f8.html"/>
+      <url>/8cfde8f8.html</url>
+      
+        <content type="html"><![CDATA[<p>在执行<kbd>Ctrl</kbd>+<kbd>Z</kbd>后进程就被挂起并放到后台去了。</p><ul><li>用<code>jobs</code>命令能得到目前的暂停进程。</li><li>用<code>fg %N</code>来将第N个进程唤醒到前台来，N对应的是<code>jobs</code>命令执行后后台进程对应的编号。</li><li>用<code>bg %N</code>来将第N个进程放到后台去。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>QRSS37</title>
       <link href="/cf5716c0.html"/>
       <url>/cf5716c0.html</url>
@@ -395,7 +414,7 @@
       <link href="/babb896b.html"/>
       <url>/babb896b.html</url>
       
-        <content type="html"><![CDATA[<p>在Ubuntu中，通常我们是通过图形用户界面进入终端敲命令的。敲命令的过程中可能会被GUI干扰到。因此，我们可以选择在开机时不使用GUI直接进入命令行模式，或选择GUI模式。</p><h2 id="从默认GUI模式切换到默认命令行"><a href="#从默认GUI模式切换到默认命令行" class="headerlink" title="从默认GUI模式切换到默认命令行"></a>从默认GUI模式切换到默认命令行</h2><p>在终端执行以下命令。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ sudo systemcl set-default multi-user.target</span><br></pre></td></tr></table></figure><br>该命令会使你每次开机都进入命令行模式而没有图形用户界面，鼠标当然也就没用了。所以在输入命令前请做好准备。</p><p>接下来就可以重启后生效了。你可以手动重启，体验一下最后使用GUI的丝滑享受。当然你也可以直接敲以下命令重启。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ reboot</span><br></pre></td></tr></table></figure><br>重启好后就进入了命令行模式，且以后每次都如此。</p><p>值得注意的是，在命令行模式下，你要自己输入用户名和密码。当出现<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nameOfVM login:</span><br></pre></td></tr></table></figure><br>时，你就可以先输入账号后输入密码。（nameOfVM是你机器的名字）</p><p>想要登录root用户时用户名就是root。</p><h2 id="从默认命令行进入默认GUI"><a href="#从默认命令行进入默认GUI" class="headerlink" title="从默认命令行进入默认GUI"></a>从默认命令行进入默认GUI</h2><p>你需要先登录。登录后，输入以下命令。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ systemctl set-default graphical.target</span><br></pre></td></tr></table></figure><br>接下来也是重启，只不过是只能敲命令了。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ reboot</span><br></pre></td></tr></table></figure></p><p>完</p>]]></content>
+        <content type="html"><![CDATA[<p>在Ubuntu中，通常我们是通过图形用户界面进入终端敲命令的。敲命令的过程中可能会被GUI干扰到。因此，我们可以选择在开机时不使用GUI直接进入命令行模式，或选择GUI模式。</p><h2 id="从默认GUI模式切换到默认命令行"><a href="#从默认GUI模式切换到默认命令行" class="headerlink" title="从默认GUI模式切换到默认命令行"></a>从默认GUI模式切换到默认命令行</h2><p>在终端执行以下命令。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ sudo systemctl set-default multi-user.target</span><br></pre></td></tr></table></figure><br>该命令会使你每次开机都进入命令行模式而没有图形用户界面，鼠标当然也就没用了。所以在输入命令前请做好准备。</p><p>接下来就可以重启后生效了。你可以手动重启，体验一下最后使用GUI的丝滑享受。当然你也可以直接敲以下命令重启。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ reboot</span><br></pre></td></tr></table></figure><br>重启好后就进入了命令行模式，且以后每次都如此。</p><p>值得注意的是，在命令行模式下，你要自己输入用户名和密码。当出现<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nameOfVM login:</span><br></pre></td></tr></table></figure><br>时，你就可以先输入账号后输入密码。（nameOfVM是你机器的名字）</p><p>想要登录root用户时用户名就是root。</p><h2 id="从默认命令行进入默认GUI"><a href="#从默认命令行进入默认GUI" class="headerlink" title="从默认命令行进入默认GUI"></a>从默认命令行进入默认GUI</h2><p>你需要先登录。登录后，输入以下命令。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ systemctl set-default graphical.target</span><br></pre></td></tr></table></figure><br>接下来也是重启，只不过是只能敲命令了。<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ reboot</span><br></pre></td></tr></table></figure></p><p>完</p>]]></content>
       
       
       <categories>
