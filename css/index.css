@@ -3418,6 +3418,21 @@ li.categoryBar-list-item:nth-child(4) {
 li.categoryBar-list-item:nth-child(5) {
   background: #D80000;
 }
+li.categoryBar-list-item:nth-child(6) {
+  background: #FFA500;
+}
+li.categoryBar-list-item:nth-child(7) {
+  background: #39C5BB;
+}
+li.categoryBar-list-item:nth-child(8) {
+  background: #FFE211;
+}
+li.categoryBar-list-item:nth-child(9) {
+  background: #FAAFBE;
+}
+li.categoryBar-list-item:nth-child(10) {
+  background: #D80000;
+}
 li.categoryBar-list-item:nth-child(1)>span::after {
   content: '' !important;
 }
