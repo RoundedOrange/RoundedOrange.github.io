@@ -4,6 +4,38 @@
   
     
     <entry>
+      <title>分数类的C++实现</title>
+      <link href="/cdf7ca0f.html"/>
+      <url>/cdf7ca0f.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><h3 id="关于我为什么突然想写个分数类的C-实现"><a href="#关于我为什么突然想写个分数类的C-实现" class="headerlink" title="关于我为什么突然想写个分数类的C++实现"></a>关于我为什么突然想写个分数类的C++实现</h3><p>原因在于：</p><ol><li>摸鱼欸嘿</li><li>打算写一个单纯形法的C++实现，结果发现不用分数的话好麻烦，double类型的可能还做不出来</li></ol><h3 id="关于参考教程"><a href="#关于参考教程" class="headerlink" title="关于参考教程"></a>关于参考教程</h3><p>网络上一些教程帮了我很多，关键是那些不是全对的，所以最后附的参考链接里的内容要注意甄别。</p></div><h2 id="头文件Fraction-h"><a href="#头文件Fraction-h" class="headerlink" title="头文件Fraction.h"></a>头文件Fraction.h</h2><p>代码如下，用头文件写的，不多做解释。文件名<code>Fraction.h</code></p><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><h2 id="CPP文件Fraction-cpp"><a href="#CPP文件Fraction-cpp" class="headerlink" title="CPP文件Fraction.cpp"></a>CPP文件Fraction.cpp</h2><h2 id="测试文件main-cpp"><a href="#测试文件main-cpp" class="headerlink" title="测试文件main.cpp"></a>测试文件main.cpp</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>单纯形法的C++实现</title>
+      <link href="/117b8ddb.html"/>
+      <url>/117b8ddb.html</url>
+      
+        <content type="html"><![CDATA[<div class="tabs" id="tabs1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#tabs1-1">理论依据</button></li><li class="tab"><button type="button" data-href="#tabs1-2">瓶颈</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="tabs1-1"><p>详情请见陈宝林著《最优化理论与算法》，单纯形法可不是那么简单就能讲完的。如果以后有时间的话我可能会在这儿补一补理论基础。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="tabs1-2"><p>显然我现在碰到了大麻烦，本来想着能很快写完，但是碰到了小数问题。目前打算写个定义分数类的头文件，然后重载运算。不过快期末考了，先鸽一鸽。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> *Copyright :(C)20220508 By Zheng Jiajun</span></span><br><span class="line"><span class="comment"> *Function  :Solve simplex method</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>0.618法的C++实现</title>
       <link href="/53a0648.html"/>
       <url>/53a0648.html</url>
