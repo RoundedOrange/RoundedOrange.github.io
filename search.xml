@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>如何优雅地在Windows上做密码管理（使用Keepass软件）</title>
+      <link href="/67ffc840.html"/>
+      <url>/67ffc840.html</url>
+      
+        <content type="html"><![CDATA[<div class="tabs" id="head"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#head-1">动机</button></li><li class="tab"><button type="button" data-href="#head-2">参考</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="head-1"><p>最近学习通数据库泄露和QQ号被盗的事件影响颇大，这才又让我认识到密码管理的重要性。之前一直用的是Keepass管理自己的密码，不过也只用了基本功能。这次正好可以把这个软件深入研究一下。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="head-2"><div class="tag link"><a class="link-card" title="密码学和网络安全知识 1： 密码、口令与密钥" href="https://zhuanlan.zhihu.com/p/463628812"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">密码学和网络安全知识 1： 密码、口令与密钥</p><p class="url">https://zhuanlan.zhihu.com/p/463628812</p></div></a></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><div class="note info flat"><p>这篇文章用于介绍基本的密码设置注意事项，市面上主要使用密码管理软件的优缺点，然后再讲讲Keepass的使用。</p></div><h2 id="密码基础"><a href="#密码基础" class="headerlink" title="密码基础"></a>密码基础</h2><h3 id="什么是密码"><a href="#什么是密码" class="headerlink" title="什么是密码"></a>什么是密码</h3><p>首先要明确的是，密码学里的密码和大众眼中的密码是两个概念。这里讲讲口令、密码和密钥。</p><p><code>口令</code>：password，用于验证鉴别。在大部分互联网应用中会对不同的用户设置不同的身份和口令。如果你告知应用自己的身份，然后再通过告诉应用口令，那就能证明自己的身份。很明显，这里的口令就是我们平常生活中说的“密码”。</p><p>口令有一个基本特征：<strong>由可书写可读的字母、数字、符号、词组成，便于头脑记忆。</strong></p><p><code>密码</code>：在密码学里指密码算法，通俗理解成把可以被大家理解的信息转化成大家不理解的杂乱无章的字符之类的信息。密码算法有许多种，这里就不展开了。</p><p><code>密钥</code>：密码算法可以传入参数，密钥就是这些参数。对于同一种密码算法，传入的密钥参数不同，对应转化的结果也就不同。</p><p>但是，这篇文章是面向大众的科普向文章，博主本人也没密码学相关知识背景，所以我们对这些概念不必过分深究。我们就采用大众理解的概念来理解密码。</p><div class="note info flat"><p>在此段以后的整篇文章中，我们提到的密码，若非特别说明，一律指大众理解的密码，也就是登陆时填的那个“password”，也就是口令。</p></div><h3 id="密码设置的注意事项"><a href="#密码设置的注意事项" class="headerlink" title="密码设置的注意事项"></a>密码设置的注意事项</h3><p>密码在使用方便前必须考虑安全性。只有足够安全后你才能开始考虑怎么方便使用。</p><p><strong>以下是推荐做的事情</strong></p><div class="note info flat"><p>有一些方法是不错的方法，你可以采用这些方法。</p><ol><li>有些人采用分级密码管理方法，比如设置成三级密码，第一级密码非常重要，用于管理钱财的软件等；第二级密码用于官方认证的网站，比较放心；第三级密码用于野鸡网站，听都没听过的那种。你也可以用五级密码或七级密码或更多级。</li><li>大小写结合加数字再加特殊符号更安全哦，而且越长越好。但问题是，对很多人来说，密码越复杂越长，就越倾向于多个地方用同一密码，因为懒得记。结果风险反而更高了。</li><li>假设有密码<code>！%@￥#</code>，那把QQ密码设成<code>QQ！%@￥#</code>，Steam密码设成<code>Steam！%@￥#</code>。不过这也不太安全。</li><li>记在小本本上，不过前提是你要保证放好位置别丢了。</li><li>有一种免费的密码管理软件，可以从庞大的数据中快速找到特定的密码，完全不存在数据泄露的可能性，我们一般称这个软件为大脑。</li><li>一个有名的程序员肯汤普森，他的某个密码散列后的字符串是<code>ZghOT0eRm4U9s</code>，快40年后才被暴力破解，明文是<code>p/q2-q4!</code>，这个意思是国际象棋里的一个常见的开局走法：皇后前面的兵向前移动 2 个方格。同样的道理，以下这密码可能给你思路：飞流直下三千尺，疑是银河落九天。密码就是flzx3000c,YSYHL9T.</li><li>你可能不信，但手机验证码是普通人能接触到的最安全的方法了。</li></ol></div><p><strong>以下是你禁止做的事情</strong></p><div class="note error flat"><p><strong>你不能这么做！！！</strong></p><ol><li>所有网站都用同一个密码</li><li>把密码告诉妈妈，跟她说不要告诉别人</li><li>把密码记在一个txt文件里面，然后把名字改成meiyoumima.jpg</li><li>在一个photoshop文件里面建一个新图层，把账号密码写上去，背景和字体设成白色，想看密码的时候开ps文件看。</li><li>密码设成123456</li><li>浏览器问你要不要保存输的密码，你选了要</li><li>你住在北京，你叫小明，你的生日是2月29日，你的密码设成xiaomingbeijing0229</li><li>听别人说MD5是加密算法，然后就糊里糊涂用简单的口令进行MD5转换后当密码</li><li>支持国产！把密码交给百度管理吧！</li></ol></div><h2 id="密码软件概览与选择"><a href="#密码软件概览与选择" class="headerlink" title="密码软件概览与选择"></a>密码软件概览与选择</h2><p>这时你大概已经明白什么样的密码是好密码，什么样的密码是坏密码了。这时就要选择一个厉害的密码管理软件了。</p><h3 id="诉求"><a href="#诉求" class="headerlink" title="诉求"></a>诉求</h3><p>在选择密码管理软件之前，你要知道你对密码管理软件有什么样的要求，这会导致你更喜欢哪种管理密码软件。</p><ol><li>加密算法是什么？加密算法安全吗？你可能不知道加密算法安不安全，不过至少不要让密码是明文存储的。至于哪种加密算法更安全，专业人士自然有自己的见解。</li><li></li></ol><h2 id="Keepass使用"><a href="#Keepass使用" class="headerlink" title="Keepass使用"></a>Keepass使用</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂项 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>山东大学软件学院数据可视化笔记</title>
       <link href="/e7a34b31.html"/>
       <url>/e7a34b31.html</url>
